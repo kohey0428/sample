@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.753);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.header-container {
+    width: auto;
+    padding: 0 30px;
+}
+
+.header-left {
+    font-family: arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 190, 190, 0.219);
+    transition: all 0.5s;
+    width: 100px;
+}
+
+.header-right:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.header-right a {
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top-wrapper {
+    height: 400px;
+    background-image: url("https://www.yasuda-u.ac.jp/pickup/images/20211012TOP.png");
+    background-size: cover;
+    background-position: right 0% bottom 50%;
+    font-family: arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-top: 80px;
+}
+
+.top-wrapper::before{
+	background-color: rgba(0, 0, 0, 0.699);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+.top-wrapper-container {
+    padding-top: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.top-wrapper-container-login {
+    padding-top: 40px;
+}
+
+.top-wrapper-container-topic h1 {
+    opacity: 0.6;
+    letter-spacing: 4px;
+}
+
+.top-wrapper-container-topic p {
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.top-wrapper-container-dot {
+    color: red;
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 8px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-wrapper {
+    margin: 30px 0;
+}
+
+.btn-wrapper a {
+    color: white;
+}
+
+.btn-wrapper p {
+    opacity: 0.6;
+}
+
+.signup {
+    background-color: rgba(6, 172, 0, 0.603);
+}
+
+.facebook {
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: rgb(58, 137, 255);
+}
+
+.main-wrapper {
+    height: 800px;
+    background-color: rgb(165, 165, 165);
+    padding-top: 90px;
+}
+
+.main-wrapper-description {
+    font-size: 17px;
+    text-align: center;
+}
+
+.main-wrapper-description h1 {
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.main-wrapper-description p {
+    padding-top: 20px;
+    font-family: Arial;
+}
+
+.main-wrapper-description span {
+    font-weight: bold;
+}
+
+.main-wrapper-description img {
+    padding-top: 60px;
+    width: 20%;
+}
